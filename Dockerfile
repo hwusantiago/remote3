@@ -4,5 +4,5 @@ WORKDIR /app
 COPY . /app
 COPY requirements.txt .
 RUN python3 -m pip install -r requirements.txt
-ENV FLASK_APP=movies-mysql.py
+ENV FLASK_APP=hello-mysql.py
 CMD ["python3","-m","flask", "run","--host=0.0.0.0"]

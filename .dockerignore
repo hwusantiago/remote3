@@ -1,0 +1,6 @@
+.venv
+.flaskenv
+.gitignore
+__pycache__
+Dockerfile
+movies-mysql.py

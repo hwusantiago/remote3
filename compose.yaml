@@ -1,8 +1,8 @@
 name: 'compose_remote'
 services:
        web-app:
-             image: schumbe/f29ds-scraper:compose3-web-app
-             container_name: scraper-mysql
+             image: schumbe/hello:docker-mysql
+             container_name: hello-mysql
              ports:
                    - "5000:5000"         
        mysqldb:
